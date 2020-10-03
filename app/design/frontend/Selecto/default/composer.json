@@ -1,0 +1,23 @@
+{
+    "name": "selecto/theme-frontend-default",
+    "description": "This theme develop by vinit gaur",
+    "version": "1.0.0",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~7.*||~5.*",
+        "magento/framework": "*",
+        "magento/theme-frontend-luma": "*"
+    },
+    "type": "magento2-theme",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
